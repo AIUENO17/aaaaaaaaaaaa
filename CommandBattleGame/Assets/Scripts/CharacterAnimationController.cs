@@ -51,7 +51,7 @@ public class CharacterAnimationController : MonoBehaviour
         }
     }
 
-    IEnumerator StartAttackAnimation(int attackId)
+   public IEnumerator StartAttackAnimation(int attackId)
     {
         if (characterType == CharacterType.Attacker)
         {
